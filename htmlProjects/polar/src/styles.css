@@ -1,0 +1,29 @@
+body {
+    background-color:darkgoldenrod;
+}
+
+ul {
+    background-color: #333;
+    display: flex;
+   justify-content:space-around;
+   border-color:floralwhite;
+   border-style: groove;
+  }
+  li{
+    display: flex;
+    display: inline;
+  }
+  li a:hover {
+    background-color: #111;
+  }
+  a{
+    font-size: larger;
+    color: aliceblue;
+  }
+  h1{
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 15px;
+    margin-bottom: 5%;
+  }
+ 

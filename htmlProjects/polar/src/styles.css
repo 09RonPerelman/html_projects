@@ -1,29 +1,31 @@
 body {
-    background-color:darkgoldenrod;
+  background-image: url("assets/wallpaper-sky.jpg");
+  background-repeat: no-repeat;
 }
 
 ul {
-    background-color: #333;
+    background-color: rgb(99, 99, 99);
+    opacity: 0.6;
     display: flex;
    justify-content:space-around;
    border-color:floralwhite;
    border-style: groove;
   }
-  li{
-    display: flex;
-    display: inline;
-  }
-  li a:hover {
-    background-color: #111;
-  }
+
+
   a{
     font-size: larger;
     color: aliceblue;
   }
-  h1{
-    font-size: large;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-top: 15px;
-    margin-bottom: 5%;
-  }
+
+ .headlines { 
+  margin-top: 4%;
+  margin-bottom: 4%;
+  color: #111;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 100px; 
+  font-weight: bold; 
+  letter-spacing: -1px; 
+  line-height: 1; text-align: center;
+ }
  
